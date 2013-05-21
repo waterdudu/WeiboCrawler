@@ -1,0 +1,103 @@
+body {
+	font-size:14px;
+	line-height:18px;
+	color:#333;
+	display:block;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+/*	background-color:#352726; */
+}
+
+div {
+	display:block;
+}
+
+body.user-style {
+	background-image:url("bg.gif");
+}
+
+body, #doc,#page-container {
+	height:100%;
+}
+
+.wrapper .white {
+	background:url("wash-white-30.png");
+}
+
+.wrapper {
+	padding-bottom:0;
+}
+
+.wrapper {
+	position:relative;
+	width:837px;
+	min-height:100%;
+	margin:0 auto;
+}
+
+.dashboard {
+	float:left;
+	width:302px;
+}
+.content-main {
+	float:right;
+	width:522px;
+}
+
+.stream-item {
+	background:#fff;
+}
+
+
+.WB_feed_type {
+	background-color:#fff;
+}
+/* line color */
+.S_line2 {
+	border-color:#e6e6e6;
+}
+/*.WB_feed .WB_feed_datail { */
+.WB_feed .WB_feed_detail {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	padding: 0 0 11px;
+	overflow: hidden;
+}
+li {
+	list-style:none;
+}
+/*
+ .WB_feed_type .WB_feed_detail {
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	padding:0 0 11px;
+	overflow:hidden;
+}
+*/
+/*
+.WB_feed .WB_feed_type{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+	*/
+.WB_feed .WB_text {
+	font-size: 14px;
+	line-height: 23px;
+	padding: 4px 0 4px;
+}
+
+.WB_feed .WB_face {
+	float:left;
+	width:50px;
+}
+
+.WB_feed .WB_detail {
+	margin-left:65px;
+}
+.WB_feed .WB_text {
+	padding:4px 0 4px;
+}
+
+.WB_feed .WB_feed_type { margin:1px 20px 0; padding:10px 0 0; }
+
+
